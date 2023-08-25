@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+/* navbar  */
+#sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(86, 96, 241);
+} 
+
+.nav .logo img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.nav-items ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-items li {
+    margin: 30px;
+    font-size: 1.5rem;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 6px;
+    color: white;
+}
+
+.nav-items li a:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+/* home  */
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section::before {
+    content: "";
+    position: absolute;
+    background: url("./Images/intro_background.jpg ");
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.h-primary {
+    font-size: 4rem;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    font-family: 'Lora', serif;
+}
+
+.h2-primary {
+    font-size:3rem;
+    font-family: 'Parisienne', cursive;
+    margin: 20px;
+}
+
+span {
+    color: rgb(233, 10, 10) ;
+}
+
+/* About  */
+.resume {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#9ffafa, #e49090);
+    margin-bottom: 0;
+}
+.About-me {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif; 
+}
+.education {
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.h-edu {
+    margin: 4px;
+}
+
+.skills {
+    margin: 20px;
+    margin-left: 150px;
+}
+
+.language {
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.achievement {
+    margin: 20px;
+    margin-left: 150px;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+}
+
+.class {
+    list-style: none;
+    margin: 4px;
+}
+
+/* projects  */
+
+.projects h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+    margin: 30px;
+}
+
+.projectsEx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: large;
+}
+
+.pro{
+    margin: 30px;
+    margin-top: 0;
+    padding: 30px;
+}
+
+.projectsEx div img{
+    height: 250px;
+    width: 300px;
+}
+
+.tindog {
+    margin-left: 65px;
+}
+
+.pro h4{
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+.pro p{
+    margin-top: 20px;
+}
+
+
+/* contact  */
+
+.contact {
+    height: 300px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(60, 60, 99) ; 
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    padding-top: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.contact .p {
+    color: white;
+    font-size: large;
+}
+
+.items {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr ;
+    margin: 40px;
+}
+.same{
+    background-color: white;
+    width: 350px;
+    height: 100px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    border-radius: 30px;
+}
+
+.same h4{
+    margin-bottom: 4px;
+}
+
+/* footer  */
+.footer {
+    height: 25px;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 12px;
+    color: white;
+    background-color: grey;
+}
+

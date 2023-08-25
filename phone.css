@@ -1,0 +1,166 @@
+/* responsive  */
+
+@media (max-width: 1240px) {
+    /* navbar  */
+    .nav {
+        flex-direction: column;
+    }
+
+    /* home  */
+    .section {
+        padding: 35px;
+    }
+
+    .h-primary {
+        margin-bottom: 25px;
+    }
+
+    .h2-primary {
+        margin: auto;
+    }
+    /* About  */
+
+
+    /* Projects  */
+    .projectsEx {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .pro {
+        margin: 10px;
+        padding: 0;
+    }
+
+    .projectsEx div img {
+        height: auto;
+        width: 70%;
+    }
+
+    .pro h4{
+        margin: 0;
+    }
+
+    .pro p{
+        margin: 0;
+    }
+
+
+    /* Contact  */
+
+}
+
+@media (max-width: 990px) {
+    /* home  */
+    .section {
+        padding: 50px;
+    }
+
+    .h-primary {
+        margin-bottom: 25px;
+        font-size: 3rem;
+    }
+
+    .h2-primary {
+        margin: auto;
+        font-size: 2rem;
+    }
+   
+    /* About  */
+    .resume {
+        height: 650px;
+        padding: 10px;
+        padding-top: 150px;
+    }
+
+    .About-me {
+        margin-top: 60px;
+        margin-bottom: 0;
+        text-align: justify;
+    }
+
+    .h-edu {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .class {
+        margin: 10px;
+    }
+
+    /* projects  */
+    .projects h1 {
+        margin-bottom: 0px;
+        margin-top: 10px;
+        padding: 10px;
+        padding-top: 10px;
+    }
+
+    .pro {
+        padding: 20px;
+    }
+
+    .pro h4 {
+        margin-top: 15px;
+    }
+
+     /* Contact  */
+     .contact {
+        height: auto;
+     }
+
+     .contact h2 {
+        padding-top: 15px;
+     }
+
+     .items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .same {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 670px) {
+    .nav-items li {
+        margin: 10px;
+    }
+
+    .resume {
+        padding-top: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+
+   /* about  */
+    .resume {
+        margin-top: -200px;
+        height: auto;
+    }
+
+    .About-me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .achievement {
+        margin-right: 150px;
+    }
+   
+    .language {
+        margin-right: 80px;
+    }
+
+    .skills {
+        margin-right: 195px;
+    }
+}

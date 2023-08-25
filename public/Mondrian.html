@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+      }
+
+      .container {
+        height: 748px;
+        width: 748px;
+        display: grid;
+        grid-template: 414px 130px 155px 20px / 320px 198px 153px 50px;
+        gap: 9px;
+        background-color: black;
+      }
+
+      .item1 {
+        /* height: 414px ;
+        width: 320px; */
+        background-color:red ;
+      }
+
+      .item2{
+        /* height: 414px ;
+        width: 419px; */
+        background-color:rgb(230, 199, 199) ;
+        grid-column: span 3;
+      }
+
+      .item3 {
+        /* height: 296px ;
+        width: 320px; */
+        background-color:rgb(230, 199, 199) ;
+        /* grid-area: 2 / 1 / 4 / 2; */
+        grid-row: span 2;
+      }
+
+      .item4 {
+        /* height: 296px ;
+        width: 360px; */
+        background-color:rgb(230, 199, 199) ;
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+
+      .item5 {
+        /* height: 130px ;
+        width: 50px; */
+        background-color:blue;
+        border-bottom: 10px solid black;
+      }
+
+      .item6 {
+        /* height: 184px ;
+        width: 50px; */
+        background-color:rgb(230, 199, 199) ;
+        /* grid-area: 3 / 4 / 5 / 5; */
+        grid-row: span 2;
+      }
+
+      .item7 {
+        /* height: 20px ;
+        width: 320px; */
+        background-color:rgb(230, 199, 199) ;
+        /* grid-area: 4 /1 / 5 / 2; */
+      }
+
+      .item8 {
+        /* height: 20px ;
+        width: 198px; */
+        background-color:yellow;
+        /* grid-area: 4 / 2 / 5 / 3; */
+      }
+
+      .item9 {
+        /* height: 20px ;
+        width: 153px; */
+        background-color:rgb(65, 61, 61);
+        /* grid-area: 4 / 3 / 5 / 4; */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Write your HTML here -->
+    <div class="container">
+        <div class="item1"></div>
+        <div class="item2"></div>
+        <div class="item3"></div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+        <div class="item6"></div>
+        <div class="item7"></div>
+        <div class="item8"></div>
+        <div class="item9"></div>
+    </div>
+  </body>
+</html>
